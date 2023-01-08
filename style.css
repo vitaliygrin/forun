@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #111;
+
+}
+
+
+
+p.text {padding-left:15px;}
+
+*,
+*:before;
+*::after {
+    box-sizing: border-box;
+
+} 
+
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    padding: 20px;
+    background-color: #2725b5;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+
+.content{
+   min-width: 800px;
+   margin: 0 auto;
+   padding: 40px 20px;
+}
+
+.dws-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: left;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+
+    padding: 15px 15px 15px 15px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid#000000;
+}
+
+.dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+ 
+.dws-menu > ul li :first-child{
+    border-left: 1px solid #000000;
+}
+
+
+.dws-menu > ul li :last-child{
+    border-right: 1px solid #000000;
+}
